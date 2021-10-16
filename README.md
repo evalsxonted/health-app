@@ -1,16 +1,13 @@
 # healthy
 
-health app
+This project was not built to sustain, the aim with building this app is to be done as fast as possible, so it have no design pattern no good folder architecture no code architecture no implementaion process and no state management nothing at all just design implementaition and connected with firebase, so please dont judge me relying on this project bcz it is not a real project. thnx.
 
-## Getting Started
+## Design
 
-This project is a starting point for a Flutter application.
+https://www.figma.com/file/EHCluWiWRgqFQLyx25sZ3m/Sehaty-App
 
-A few resources to get you started if this is your first Flutter project:
+## Demo 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+https://youtu.be/QoIVoq4oD4Y
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
