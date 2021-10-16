@@ -1,0 +1,163 @@
+name: healthy
+description: health app
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^1.4.4+1
+  firebase_core: ^0.7.0
+  cloud_firestore: ^0.16.0
+  firebase_storage: ^7.0.0
+  toast: ^0.1.5
+  flutter_rating_bar: ^3.2.0+1
+  share: ^2.0.1
+  maps_launcher: ^1.2.2+2
+  image_picker: ^0.6.7+12
+  webview_flutter: ^2.0.2
+  uuid: 2.2.2
+  flutter_facebook_auth: ^2.0.2
+  google_sign_in: ^4.4.4
+  flutter_datetime_picker: ^1.5.0
+  path_provider: ^2.0.2
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/login.png
+     - assets/button.png
+     - assets/line.png
+     - assets/edit.png
+     - assets/logo.png
+     - assets/icons/person.png
+     - assets/icons/person2.png
+     - assets/icons/hide_pass.png
+     - assets/icons/unhide_pass.png
+     - assets/icons/pass.png
+     - assets/icons/pass2.png
+     - assets/icons/facebook.png
+     - assets/icons/google.png
+     - assets/icons/back.png
+     - assets/icons/back2.png
+     - assets/icons/phone.png
+     - assets/icons/email.png
+     - assets/icons/birth.png
+     - assets/icons/sex.png
+     - assets/icons/closed_circle.png
+     - assets/icons/open_circle.png
+     - assets/icons/menu.png
+     - assets/icons/search.png
+     - assets/icons/filter.png
+     - assets/icons/doctor.png
+     - assets/icons/doctor2.png
+     - assets/icons/doctor3.png
+     - assets/icons/pharmacy.png
+     - assets/icons/pharmacy2.png
+     - assets/icons/center.png
+     - assets/icons/center2.png
+     - assets/icons/offers.png
+     - assets/icons/offers2.png
+     - assets/icons/person3.png
+     - assets/icons/settings.png
+     - assets/icons/write.png
+     - assets/icons/share.png
+     - assets/icons/exit.png
+     - assets/icons/close.png
+     - assets/icons/right.png
+     - assets/icons/map.png
+     - assets/icons/location2.png
+     - assets/icons/phone2.png
+     - assets/icons/time.png
+     - assets/icons/money.png
+     - assets/icons/info.png
+     - assets/icons/star.png
+     - assets/sections/dentist.png
+     - assets/sections/abdomen.png
+     - assets/sections/all.png
+     - assets/sections/beauty.png
+     - assets/sections/blood.png
+     - assets/sections/bones.png
+     - assets/sections/children.png
+     - assets/sections/digestive.png
+     - assets/sections/ear-nose.png
+     - assets/sections/eyes.png
+     - assets/sections/heart.png
+     - assets/sections/nerves.png
+     - assets/sections/skin.png
+     - assets/sections/surgery.png
+     - assets/sections/sycho.png
+     - assets/sections/tumors.png
+     - assets/sections/urinary.png
+     - assets/sections/women.png
+     - assets/sections/laser.png
+     - assets/sections/skin2.png
+     - assets/sections/beauty2.png
+     - assets/sections/hair.png
+     - assets/sections/analysis.png
+     - assets/sections/fitness.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: Cairo
+       fonts:
+         - asset: assets/Cairo/Cairo-Regular.ttf
+         - asset: assets/Cairo/Cairo-Bold.ttf
+           weight: 700
+         - asset: assets/Cairo/Cairo-Light.ttf
+           weight: 300
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
